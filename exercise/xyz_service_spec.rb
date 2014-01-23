@@ -13,7 +13,7 @@ describe XYZService do
       :id => 1337,
       :title => 'I <3 SPARKLY Sparkles!!1!'
     }
-    stub(:target, messages)
+    double(:target, messages)
   end
 
   subject { XYZService.xyz_filename(target) }
