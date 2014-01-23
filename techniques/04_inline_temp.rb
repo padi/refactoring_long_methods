@@ -1,6 +1,6 @@
 # Inline Temp
 #
-# temp = temporary/local variable
+# temp = temporary variable
 #
 # Problem: you have a temp that
 # is assigned to a simple expression

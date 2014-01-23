@@ -1,10 +1,18 @@
 # Replace Method w/ Method Object
 #
-# Problem: previous techniques aren't enough
-# to extract methods
+# Problem:
+# You have a long method that uses local variables
+# in such a way that you cannot use extract method
 #
-# Solu
+# Solution:
+# Turn the method into its own object
+# so that all local variables become
+# instance variables on that object.
+#
+# Then decompose using other methods
+
 module XYZService
+  # LOTS OF CODE
 
   def self.xyz_filename(target)
     # File format:
@@ -28,4 +36,5 @@ module XYZService
     puts 'hello'
   end
 
+  # LOTS OF CODE
 end
