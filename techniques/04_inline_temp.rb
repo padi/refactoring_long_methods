@@ -1,11 +1,9 @@
 # Inline Temp
 #
-# temp = temporary variable
-#
-# Problem: you have a temp that
-# is assigned to a simple expression
+# Problem: you have a temporary variable
+# that is assigned to a simple expression
 # once
-# (and the temp is getting in
+# (... and the temp is getting in
 # the way of other refactorings)
 #
 # Solution: Replace all references
